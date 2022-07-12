@@ -6,7 +6,7 @@
 Example:
 
 ```
-echo ~/.ssh/id_rsa.pub | pycopy
+cat ~/.ssh/id_rsa.pub | pycopy
 ```
 
 Usage:
