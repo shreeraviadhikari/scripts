@@ -3,4 +3,4 @@
 import sys
 import pyperclip
 
-pyperclip.copy(sys.stdin.read().strip())
+sys.stdout.write(pyperclip.paste())
